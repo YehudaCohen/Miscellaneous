@@ -20,4 +20,4 @@ a = HashMap(100, hash_function_generator)
 a.set("hello", True)
 
 assert a.get("hello")
-assert a.get("goodbye") == False
+assert a.get("goodbye") == None
